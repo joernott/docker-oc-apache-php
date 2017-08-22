@@ -1,0 +1,13 @@
+FROM registry.ott-consult.de/oc/apache
+MAINTAINER Joern Ott <joern.ott@ott-consult.de>
+
+ENV PHP_VERSION=71u
+
+COPY src /
+
+RUN /tmp/install/oc-apache-php.sh
+
+EXPOSE 80
+EXPOSE 443
+
+ENTRYPOINT /entrypoint
