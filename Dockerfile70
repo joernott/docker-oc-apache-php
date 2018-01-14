@@ -1,7 +1,10 @@
 FROM registry.ott-consult.de/oc/apache
-MAINTAINER Joern Ott <joern.ott@ott-consult.de>
+LABEL MAINTAINER="joern.ott@ott-consult.de"
 
-ENV PHP_VERSION=70u
+ENV PHP_VERSION=70u \
+    GIT_COMMIT="x" \
+    IMAGE_HISTORY="x"
+
 
 COPY src /
 
