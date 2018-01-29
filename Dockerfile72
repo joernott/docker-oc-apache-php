@@ -1,7 +1,7 @@
 FROM registry.ott-consult.de/oc/apache
 LABEL MAINTAINER="joern.ott@ott-consult.de"
 
-ENV PHP_VERSION=71u \
+ENV PHP_VERSION=72u \
     GIT_COMMIT="x" \
     IMAGE_HISTORY="x"
 
