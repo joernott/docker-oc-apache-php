@@ -13,6 +13,7 @@ install_software php${PHP_VERSION} \
                  php${PHP_VERSION}-gmp \
                  php${PHP_VERSION}-imap \
                  php${PHP_VERSION}-intl \
+                 php${PHP_VERSION}-json \
                  php${PHP_VERSION}-ldap \
                  php${PHP_VERSION}-mbstring \
                  php${PHP_VERSION}-mcrypt \
