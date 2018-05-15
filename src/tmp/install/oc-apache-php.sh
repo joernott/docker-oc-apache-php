@@ -25,7 +25,6 @@ install_software php${PHP_VERSION} \
                  php${PHP_VERSION}-pecl-geoip \
                  php${PHP_VERSION}-pecl-imagick \
                  php${PHP_VERSION}-pecl-jsonc \
-                 php${PHP_VERSION}-pecl-krb5 \
                  php${PHP_VERSION}-pecl-lzf \
                  php${PHP_VERSION}-pecl-memcached \
                  php${PHP_VERSION}-pecl-mongo \
