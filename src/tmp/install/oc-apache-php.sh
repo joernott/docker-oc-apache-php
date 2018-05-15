@@ -21,7 +21,6 @@ install_software php${PHP_VERSION} \
                  php${PHP_VERSION}-odbc \
                  php${PHP_VERSION}-pdo \
                  php${PHP_VERSION}-pear \
-                 php${PHP_VERSION}-pecl-amqp \
                  php${PHP_VERSION}-pecl-apcu \
                  php${PHP_VERSION}-pecl-geoip \
                  php${PHP_VERSION}-pecl-imagick \
@@ -41,4 +40,8 @@ install_software php${PHP_VERSION} \
                  php${PHP_VERSION}-xcache \
                  php${PHP_VERSION}-xml \
                  php${PHP_VERSION}-xmlrpc
+                 
 cleanup
+
+# broken on CentOS 7.5: php${PHP_VERSION}-pecl-amqp
+# broken on CentOS 7.5: php${PHP_VERSION}-pecl-krb5
