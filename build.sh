@@ -8,10 +8,6 @@ patch_dockerfile Dockerfile56
 docker build -f Dockerfile56 -t registry.ott-consult.de/oc/apache-php:5.6 .
 docker push registry.ott-consult.de/oc/apache-php:5.6
 
-patch_dockerfile Dockerfile70
-docker build -f Dockerfile70 -t registry.ott-consult.de/oc/apache-php:7.0 .
-docker push registry.ott-consult.de/oc/apache-php:7.0
-
 patch_dockerfile Dockerfile72
 docker build -f Dockerfile72 -t registry.ott-consult.de/oc/apache-php:7.2 .
 docker tag registry.ott-consult.de/oc/apache-php:7.2 registry.ott-consult.de/oc/apache-php:latest
